@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Japanese Video Games Galore!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale= 1">
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+   <link href="//db.onlinewebfonts.com/c/e583b934deb8db67c9291f3e8e30f1df?family=Last+Ninja" rel="stylesheet" type="text/css"/>
+<!-- There are two fonts here: Google font, Signika and a website font, LastNinja -->
+<link rel="stylesheet" type="text/css" href="gamePageStyle.css">
+  <style>
+  body { background-color:#bababa;}
+
+
+     /*screen-size responsive container*/
+  .container{margin-right:auto;margin-left:auto}
+  @media (min-width:768px){.container{width:766px}}
+  @media (min-width:992px){.container{width:990px}}
+  @media (min-width:1200px){.container{width:1199px}}
+
+  #SNES{float:right; margin-top:2%; } /*div with SNES image*/
+
+  div.SNES_text {     /* right text box*/
+  margin-top:2%;
+  padding:8px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60);/* For IE8 and earlier */
+  border-radius: 25px;
+  float: right;
+  border-bottom-style: double; border-right-style: ridge;
+  border-left-style: ridge; border-color:silver;
+}
+
+  #ps3btn{float:left;margin-top: 2%;margin-left: 3%;z-index: 12; } /*div with ps3 image*/
+  @media (max-width:966px){#ps3btn{margin-left:11%;}}
+
+  div.PS3_text {  /*left text box*/
+  margin-top:2%;
+  padding:8px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60);/* For IE8 and earlier */
+  border-radius: 25px;
+  float: left;
+  border-bottom-style: double; border-right-style: ridge;
+  border-left-style: ridge; border-color:silver;
+  }
+
+   @import url(//db.onlinewebfonts.com/c/e583b934deb8db67c9291f3e8e30f1df?family=Last+Ninja);
+@font-face {font-family: "Last Ninja";
+  src: url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.eot");
+  src: url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.svg#Last Ninja") format("svg");
+} /*This is for extensive font coverage.*/
+
+div.title{margin-left:25%;}
+
+h1{color:#228B22;font-size:30px; font-family:Last Ninja, sans-serif;}
+
+  p {  font-family: 'Signika', sans-serif;  /*text in textboxes*/
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+  </style>
+  </head>
+
+    <body>
+	<div class="container">
+	<div class="title"><h1>Japanese Games Galore!</h1>
+
+</div>
+
+   <div class="PS3_text">
+         <p>
+          The PS3 button<br>will give you<br>a drop down list<br>for post PS1/N64 games.<br>
+
+                </p>
+        </div>
+
+	<div id="ps3btn">
+      <form action="http://localhost/Website_proj/SQL_connection_PHP/modern_games_list.php">
+      <input type="image" src="ps3_new.png" name="saveForm" class="btTxt go" id="saveForm">
+    </form>
+  </div>
+
+   <div class="SNES_text">
+        <p>
+         Psst, here’s a secret:<br>The ‘a’ button<br>will let you search<br>for retro games.<br>
+
+        </p>
+      </div>
+      <!-- This SNES div is a button map because I thought it would look cool. -->
+  <div id="SNES" >
+      <img src= "SNES_sm.png" alt="Button Map" usemap="#aButton" ismap="ismap" >
+      <map name="aButton">
+        <area shape = "circle" coords = "213,161,45"
+        href = "http://localhost/Website_proj/SQL_connection_PHP/retro_games_list.php" alt="Link to retro list" target="_self" />
+      </map>
+         </div>
+        </div>
+
+
+    </body>
+
+</html>
