@@ -3,7 +3,7 @@
 <head>
 <title>Drop down list for modern games</title>
 <style>
-@import url(//db.onlinewebfonts.com/c/36296f8c96973a486831dd2d07f546af?family=Last+Ninja);
+@import url("//db.onlinewebfonts.com/c/36296f8c96973a486831dd2d07f546af?family=Last+Ninja");
 
 @font-face {
    font-family: LastNinja;
