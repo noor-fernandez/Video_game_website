@@ -4,7 +4,7 @@ This project consists of a front-end (the video game webasite) and a backend (a 
 ## Installation Instructions
 
 ### Download
-The necesarry files can be [downloaded here](https://github.com/nortorious-flame89/Video_game_website.git). 
+The necesary files can be [downloaded here](https://github.com/nortorious-flame89/Video_game_website.git). 
 
 ### Additional installations & Running the website
 -You will need to install Xampp and PHPmyAdmin and import the SQL file into it. If you are a windows user, this [link](https://www.youtube.com/watch?v=hqfIksHKPPg) contains instructions for downloading it. For Mac users, this [video](https://www.youtube.com/watch?v=b_6g_5S_bVo) is recommended. Linux users should read [this article](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-16-04).
