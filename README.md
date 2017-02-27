@@ -9,7 +9,7 @@ The necesary files can be [downloaded here](https://github.com/nortorious-flame8
 ### Additional installations & Running the website
 You will need to install Xampp and PHPmyAdmin and import the SQL file into it. If you are a windows user, this [link](https://www.youtube.com/watch?v=hqfIksHKPPg) contains instructions for downloading it. For Mac users, this [video](https://www.youtube.com/watch?v=b_6g_5S_bVo) is recommended. Linux users should read [this article](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-16-04).
   * When these servers are running, import the database file by first creating a database using the SQL statement 
-  * `CREATE DATABASE <database name>` then click the import tab on phpmyadmin and importing the sql file downloaded above. 
+   `CREATE DATABASE <database name>` then click the import tab on phpmyadmin and importing the sql file downloaded above. 
 
 Other things this project requires is HTML5 and PHP5 which requires notepad++ and can be [downloaded here](https://notepad-plus-plus.org/download/v7.3.2.html). 
 
