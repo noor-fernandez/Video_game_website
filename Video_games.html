@@ -3,12 +3,27 @@
   <head>
     <title>Japanese Video Games Galore!</title>
     <meta charset="utf-8">
+    <!--[if lt IE 9]>
+
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<![endif]-->
+<!-- Despite the above code being commented out it provides coverage for IE browsers -->
+
     <meta name="viewport" content="width = device-width, initial-scale= 1">
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
-   <link href="//db.onlinewebfonts.com/c/e583b934deb8db67c9291f3e8e30f1df?family=Last+Ninja" rel="stylesheet" type="text/css"/>
+
 <!-- There are two fonts here: Google font, Signika and a website font, LastNinja -->
 <link rel="stylesheet" type="text/css" href="gamePageStyle.css">
   <style>
+
+  @font-face {
+     font-family: LastNinja;
+     src: url("//db.onlinewebfonts.com/t/36296f8c96973a486831dd2d07f546af.ttf") format("truetype");
+     src: url("//db.onlinewebfonts.com/t/36296f8c96973a486831dd2d07f546af.woff2") format("woff2");
+     src: url("//db.onlinewebfonts.com/t/36296f8c96973a486831dd2d07f546af.woff") format("woff");
+  } /*These three formats provide adequate (but not extensive) font coverage for different types of browsers, but not IE. It is designed to display in modern browsers.*/
+
   body { background-color:#bababa;}
 
 
@@ -47,15 +62,8 @@
   border-left-style: ridge; border-color:silver;
   }
 
-   @import url("//db.onlinewebfonts.com/c/e583b934deb8db67c9291f3e8e30f1df?family=Last+Ninja");
-@font-face {font-family: "Last Ninja";
-  src: url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.eot");
-  src: url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.eot?#iefix") format("embedded-opentype"),
-  url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.woff2") format("woff2"),
-  url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.woff") format("woff"),
-  url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.ttf") format("truetype"),
-  url("//db.onlinewebfonts.com/t/e583b934deb8db67c9291f3e8e30f1df.svg#Last Ninja") format("svg");
-} /*This is for extensive font coverage.*/
+@import url("//db.onlinewebfonts.com/c/e583b934deb8db67c9291f3e8e30f1df?family=Last+Ninja");
+
 
 div.title{margin-left:25%;}
 
