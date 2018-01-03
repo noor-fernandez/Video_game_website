@@ -19,7 +19,7 @@ Other things this project requires is HTML5 and PHP5 which requires notepad++ an
   * `sudo apt-get update`
   * `sudo apt-get install atom`
 
-Unzip the files installed to the **download** folder and save them all under XAMPP's htdocs directory. Xampp will be installed under the C drive in windows. **This is of CRUCIAL IMPORTANCE**. If you don't extract those files to htdocs then you won't be able to run them. Windows users, should you experience permissions problems [StackOverflow] (https://stackoverflow.com) is an excellent resource.
+Unzip the files installed to the **download** folder and save them all under XAMPP's htdocs directory. Xampp will be installed under the C drive in windows. **This is of CRUCIAL IMPORTANCE**. If you don't extract those files to htdocs then you won't be able to run them. Windows users, should you experience permissions problems [StackOverflow](https://stackoverflow.com) is an excellent resource.
 
 Ubuntu 16.04 users will have a LAMPP folder instead of XAMPP and that folder will by default be downloaded into your /opt directory. 
 * In addition, Linux users will have to change the permissions of the htdocs folder. You can do this by running the `chmod`      * command. You might have to do a recursive chmod on the htdocs directory (just add `-R` after chmod.)
