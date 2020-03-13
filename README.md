@@ -1,5 +1,5 @@
 # Video_game_website
-This project consists of a front-end (the video game webasite) and a backend (a MySQL database). It is divided into two sections: modern games and retro games. The website accesses the database to provide information about each individual game as well as poplulate the respective drop down lists. 
+This project consists of a front-end (the video game website) and a backend (MySQL database). It is divided into two sections: modern games and retro games. The website accesses the database to provide information about each individual game as well as poplulate the respective drop down lists. 
 
 ## Installation Instructions
 
